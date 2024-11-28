@@ -30,7 +30,7 @@ table tr, td{
     border: 1px solid #3f3f3f;
 }
 
-table p{
+table td > p{
     margin: 20px;
 }
 
@@ -42,15 +42,26 @@ table p{
     height: 200px;    
 }
 
-li{
+.menu li{
     list-style: none;
 }
 
-li a{
+.menu a{
     text-decoration: none;
     color: #c9a378;
 }
 
-li a:hover{
+.menu a:hover{
     color: #c28035;
+}
+
+ul p{
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
 }
